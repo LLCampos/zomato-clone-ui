@@ -34,3 +34,15 @@
   font-size: 25px;
   font-family: Okra,Helvetica,sans-serif;
 }
+
+.takeaway-ad {
+  background-image: url(../static/imgs/delivery.png);
+  width: 698px;
+  height: 121px;
+  margin-top: 50px;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
