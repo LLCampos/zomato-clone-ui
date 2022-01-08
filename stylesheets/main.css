@@ -40,9 +40,9 @@ body {
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: 898px;
-  height: 146px;
-  margin-top: 31px;
+  width: 743px;
+  height: 150px;
+  margin-top: 28px;
   background-size: cover;
   position: absolute;
   left: 50%;
