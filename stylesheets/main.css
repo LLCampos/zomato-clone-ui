@@ -18,8 +18,9 @@
 .header-title-box {
   position: absolute;
   left: 50%;
-  top: 31%;
+  bottom: 45%;
   transform: translateX(-50%);
+  width: 100%;
   text-align: center;
 }
 
@@ -30,6 +31,6 @@
 
 .header-sub-title {
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Okra,Helvetica,sans-serif;
 }
