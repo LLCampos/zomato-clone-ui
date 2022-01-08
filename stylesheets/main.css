@@ -40,8 +40,8 @@ body {
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: 743px;
-  height: 150px;
+  width: 723px;
+  height: 120px;
   margin-top: 28px;
   background-size: cover;
   position: absolute;
@@ -50,4 +50,21 @@ body {
   border-radius: 10px;
   max-width: 100%;
   background-position: center;
+  color: #fff;
+  padding: 15px;
+}
+
+.takeaway-ad-top-text {
+  font-size: 16px;
+}
+
+.takeaway-ad-middle-text {
+  font-size: 26px;
+  width: 80%;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.takeaway-ad-bottom-text {
+  font-size: 12px;
 }
