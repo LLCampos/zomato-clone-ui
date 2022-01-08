@@ -48,4 +48,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
+  max-width: 100%;
+  background-position: center;
 }
