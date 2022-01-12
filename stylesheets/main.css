@@ -27,16 +27,16 @@ body {
 .header-title-box {
   position: absolute;
   left: 50%;
-  bottom: 45%;
-  transform: translateX(-50%);
+  bottom: 46%;
+  transform: translateX(-50.5%);
   width: 100%;
   text-align: center;
   padding: inherit;
 }
 
 .header-title-img {
-  height: 7.9rem;
-  padding-bottom: 2rem;
+  height: 5.9rem;
+  margin-bottom: 3rem;
 }
 
 .header-sub-title {
