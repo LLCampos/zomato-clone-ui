@@ -99,12 +99,20 @@ a {
   padding-top: 2.5rem;
 }
 
-.profile-pic {
-  border-radius: 50%;
-  width: 4rem;
+.top-header-row-link {
+  font-size: 1.5rem;
+}
+
+.account-box {
   float: right;
 }
 
-.top-header-row-link {
-  font-size: 1.5rem;
+.account-name {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 4rem;
 }
