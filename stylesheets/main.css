@@ -12,6 +12,11 @@ body {
   font-family: Okra,Helvetica,sans-serif;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .header {
   position: relative;
   background-image: url("../static/imgs/food-on-table.png");
@@ -86,3 +91,20 @@ body {
   }
 }
 
+.top-header-row {
+  width: 100rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 2.5rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 4rem;
+  float: right;
+}
+
+.top-header-row-link {
+  font-size: 1.5rem;
+}
