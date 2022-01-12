@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: Okra,Helvetica,sans-serif;
 }
@@ -16,8 +20,8 @@ body {
   background-position: center;
   width: 100%;
   height: 65vh;
-  max-height: 568px;
-  min-height: 280px;
+  max-height: 56.8rem;
+  min-height: 28.0rem;
 }
 
 .header-title-box {
@@ -31,45 +35,45 @@ body {
 }
 
 .header-title-img {
-  height: 79px;
-  padding-bottom: 20px;
+  height: 7.9rem;
+  padding-bottom: 2rem;
 }
 
 .header-sub-title {
   color: #fff;
-  font-size: 35px;
+  font-size: 3.5rem;
 }
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: 1105px;
-  height: 230px;
-  margin-top: 40px;
+  width: 111rem;
+  height: 23rem;
+  margin-top: 4rem;
   background-size: cover;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 10px;
+  border-radius: 1rem;
   max-width: 100%;
   background-position: center;
   color: #fff;
-  padding: 27px;
+  padding: 2.7rem;
   overflow: hidden;
 }
 
 .takeaway-ad-top-text {
-  font-size: 1.6rem;
+  font-size: 2.8rem;
 }
 
 .takeaway-ad-middle-text {
-  font-size: 2.3rem;
-  width: 50rem;
+  font-size: 3.5rem;
+  width: 70rem;
   font-weight: bold;
-  margin: 20px 0;
+  margin: 2rem 0;
 }
 
 .takeaway-ad-bottom-text {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 760px) {
@@ -78,7 +82,7 @@ body {
   }
 
   .header {
-    padding: 0 20px;
+    padding: 0 2rem;
   }
 }
 
