@@ -1,0 +1,22 @@
+{
+  "name": "zomato-clone-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass stylesheets/sass/main.scss stylesheets/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLCampos/zomato-clone-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLCampos/zomato-clone-ui/issues"
+  },
+  "homepage": "https://github.com/LLCampos/zomato-clone-ui#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
