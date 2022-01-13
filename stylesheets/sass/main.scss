@@ -1,3 +1,5 @@
+$color-white: #fff;
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: $color-white;
   text-decoration: none;
 }
 
@@ -47,7 +49,7 @@ a {
 
 .account__name {
   font-size: 2rem;
-  color: #fff;
+  color: $color-white;
 }
 
 .account__pic {
@@ -71,7 +73,7 @@ a {
 }
 
 .header-main__sub-title {
-  color: #fff;
+  color: $color-white;
   font-size: 3.5rem;
 }
 
@@ -87,7 +89,7 @@ a {
   border-radius: 1rem;
   max-width: 100%;
   background-position: center;
-  color: #fff;
+  color: $color-white;
   padding: 2.7rem;
   overflow: hidden;
 }
