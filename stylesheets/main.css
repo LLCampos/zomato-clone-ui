@@ -23,27 +23,23 @@ a {
   height: 65vh;
   max-height: 56.8rem;
   min-height: 28.0rem; }
-
-.header__nav {
-  width: 100rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: 2.5rem; }
-
-.header__nav--link {
-  font-size: 1.5rem; }
+  .header__nav {
+    width: 100rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2.5rem; }
+    .header__nav--link {
+      font-size: 1.5rem; }
 
 .account {
   float: right; }
-
-.account__name {
-  font-size: 2rem;
-  color: #fff; }
-
-.account__pic {
-  border-radius: 50%;
-  width: 4rem; }
+  .account__name {
+    font-size: 2rem;
+    color: #fff; }
+  .account__pic {
+    border-radius: 50%;
+    width: 4rem; }
 
 .header-main {
   position: absolute;
@@ -53,14 +49,12 @@ a {
   width: 100%;
   text-align: center;
   padding: inherit; }
-
-.header-main__img {
-  height: 5.9rem;
-  margin-bottom: 3rem; }
-
-.header-main__sub-title {
-  color: #fff;
-  font-size: 3.5rem; }
+  .header-main__img {
+    height: 5.9rem;
+    margin-bottom: 3rem; }
+  .header-main__sub-title {
+    color: #fff;
+    font-size: 3.5rem; }
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
@@ -77,18 +71,15 @@ a {
   color: #fff;
   padding: 2.7rem;
   overflow: hidden; }
-
-.takeaway-ad__top-text {
-  font-size: 2.8rem; }
-
-.takeaway-ad__middle-text {
-  font-size: 3.5rem;
-  width: 70rem;
-  font-weight: bold;
-  margin: 2rem 0; }
-
-.takeaway-ad__bottom-text {
-  font-size: 2rem; }
+  .takeaway-ad__top-text {
+    font-size: 2.8rem; }
+  .takeaway-ad__middle-text {
+    font-size: 3.5rem;
+    width: 70rem;
+    font-weight: bold;
+    margin: 2rem 0; }
+  .takeaway-ad__bottom-text {
+    font-size: 2rem; }
 
 @media only screen and (max-width: 760px) {
   .content {
