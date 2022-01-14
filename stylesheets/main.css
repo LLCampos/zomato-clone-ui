@@ -113,8 +113,7 @@ a {
 .categories__box {
   height: 20rem;
   border-radius: 1rem;
-  position: relative;
-  margin-bottom: 10px; }
+  position: relative; }
   .categories__box--text-box {
     background-color: #fff;
     position: absolute;
