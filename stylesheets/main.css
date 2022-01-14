@@ -61,10 +61,15 @@ a {
       font-size: 1.5rem; }
 
 .account {
-  float: right; }
+  float: right;
+  position: relative; }
   .account__name {
-    font-size: 2rem;
-    color: #fff; }
+    font-size: 1.8rem;
+    color: #fff;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    padding: 0 1rem; }
   .account__pic {
     border-radius: 50%;
     width: 4rem; }
