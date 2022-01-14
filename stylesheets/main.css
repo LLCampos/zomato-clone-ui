@@ -107,7 +107,8 @@ a {
 .categories__box {
   height: 20rem;
   border-radius: 1rem;
-  position: relative; }
+  position: relative;
+  transition: all 0.2s; }
   .categories__box--text-box {
     background-color: #fff;
     position: absolute;
@@ -126,6 +127,8 @@ a {
     height: 100%;
     object-fit: cover;
     border-radius: inherit; }
+  .categories__box:hover {
+    transform: scale(1.05); }
 
 @media only screen and (max-width: 760px) {
   .content {
