@@ -1,3 +1,29 @@
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 5rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 4rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 4rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 4rem * 2) / 3); }
+  .row .col-2-of-3 {
+    width: calc( ((100% - 4rem * 2) / 3) *  2 + 4rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 4rem * 3) / 4); }
+  .row .col-2-of-4 {
+    width: calc( ((100% - 4rem * 3) / 4) *  2 + 4rem); }
+  .row .col-3-of-4 {
+    width: calc( ((100% - 4rem * 3) / 4) *  3 + 2 * 4rem); }
+
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +84,7 @@ a {
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: 111rem;
+  width: 114rem;
   height: 23rem;
   margin-top: 4rem;
   background-size: cover;
@@ -86,3 +112,6 @@ a {
     margin: 0 1.8rem; }
   .header {
     padding: 0 2rem; } }
+
+.categories__box img {
+  width: 100%; }

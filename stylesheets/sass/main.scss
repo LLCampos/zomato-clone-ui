@@ -1,3 +1,9 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "layout/grid";
+
+
 $color-white: #fff;
 
 * {
@@ -80,7 +86,7 @@ a {
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: 111rem;
+  width: $grid-width;
   height: 23rem;
   margin-top: 4rem;
   background-size: cover;
@@ -117,5 +123,13 @@ a {
 
   .header {
     padding: 0 2rem;
+  }
+}
+
+.categories {
+  &__box {
+    img {
+      width: 100%;
+    }
   }
 }
