@@ -11,6 +11,8 @@
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 4rem; }
+  .row .col-1-of-1 {
+    width: 100%; }
   .row .col-1-of-2 {
     width: calc((100% - 4rem) / 2); }
   .row .col-1-of-3 {
@@ -84,15 +86,10 @@ a {
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: 114rem;
   height: 23rem;
   margin-top: 4rem;
   background-size: cover;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   border-radius: 1rem;
-  max-width: 100%;
   background-position: center;
   color: #fff;
   padding: 2.7rem;

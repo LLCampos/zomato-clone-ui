@@ -86,15 +86,10 @@ a {
 
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
-  width: $grid-width;
   height: 23rem;
   margin-top: 4rem;
   background-size: cover;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   border-radius: 1rem;
-  max-width: 100%;
   background-position: center;
   color: $color-white;
   padding: 2.7rem;
