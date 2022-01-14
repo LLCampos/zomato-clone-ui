@@ -104,12 +104,6 @@ a {
   .takeaway-ad__bottom-text {
     font-size: 2rem; }
 
-@media only screen and (max-width: 760px) {
-  .content {
-    margin: 0 1.8rem; }
-  .header {
-    padding: 0 2rem; } }
-
 .categories__box {
   height: 20rem;
   border-radius: 1rem;
@@ -132,3 +126,11 @@ a {
     height: 100%;
     object-fit: cover;
     border-radius: inherit; }
+
+@media only screen and (max-width: 760px) {
+  .content {
+    margin: 0 1.8rem; }
+  .header {
+    padding: 0 2rem; }
+  .categories__box--text-box p {
+    font-size: 1.5rem; } }
