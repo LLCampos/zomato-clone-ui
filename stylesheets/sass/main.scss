@@ -1,3 +1,5 @@
+@import "base/typography";
+
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
@@ -11,15 +13,6 @@
 
 html {
   font-size: 10px;
-}
-
-body {
-  font-family: Okra,Helvetica,sans-serif;
-}
-
-a {
-  color: $color-white;
-  text-decoration: none;
 }
 
 .header {
@@ -146,6 +139,46 @@ a {
 
     &:hover {
       transform: scale(1.05);
+    }
+  }
+}
+
+.collections {
+  &__title.row {
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__description {
+    font-size: 1.8rem;
+    padding-right: 1.2rem;
+  }
+
+  &__link {
+    position: relative;
+    padding-left: 1rem;
+    
+    a {
+      color: $color-red;
+      font-size: 1.7rem;
+
+      &:hover {
+        color: darken($color: $color-red, $amount: 5%)
+      }
+    }
+
+    &--text {
+      max-width: 90%;
+      display: inline-block;
+    }
+
+    &--arrow {
+      position: absolute;
+      bottom: 50%;
+      transform: translateY(50%);
     }
   }
 }

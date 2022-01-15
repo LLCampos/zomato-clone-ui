@@ -1,3 +1,9 @@
+body {
+  font-family: Okra,Helvetica,sans-serif; }
+
+a {
+  text-decoration: none; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -33,13 +39,6 @@
 
 html {
   font-size: 10px; }
-
-body {
-  font-family: Okra,Helvetica,sans-serif; }
-
-a {
-  color: #fff;
-  text-decoration: none; }
 
 .header {
   position: relative;
@@ -134,6 +133,32 @@ a {
     border-radius: inherit; }
   .categories__box:hover {
     transform: scale(1.05); }
+
+.collections__title.row {
+  margin-bottom: 1rem; }
+
+.collections__title {
+  font-size: 2rem; }
+
+.collections__description {
+  font-size: 1.8rem;
+  padding-right: 1.2rem; }
+
+.collections__link {
+  position: relative;
+  padding-left: 1rem; }
+  .collections__link a {
+    color: #ff7e8b;
+    font-size: 1.7rem; }
+    .collections__link a:hover {
+      color: #ff6574; }
+  .collections__link--text {
+    max-width: 90%;
+    display: inline-block; }
+  .collections__link--arrow {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%); }
 
 @media only screen and (max-width: 760px) {
   .content {
