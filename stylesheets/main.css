@@ -4,6 +4,14 @@ body {
 a {
   text-decoration: none; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -29,14 +37,6 @@ a {
     width: calc( ((100% - 1rem * 3) / 4) *  2 + 1rem); }
   .row .col-3-of-4 {
     width: calc( ((100% - 1rem * 3) / 4) *  3 + 2 * 1rem); }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-html {
-  font-size: 10px; }
 
 .box:not(:last-child) {
   margin-bottom: 5rem; }
