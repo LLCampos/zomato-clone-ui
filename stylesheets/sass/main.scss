@@ -15,6 +15,12 @@ html {
   font-size: 10px;
 }
 
+.box {
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+}
+
 .header {
   position: relative;
   background-image: url("../static/imgs/food-on-table.png");

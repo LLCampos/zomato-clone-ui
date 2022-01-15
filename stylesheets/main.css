@@ -7,8 +7,6 @@ a {
 .row {
   max-width: 114rem;
   margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 5rem; }
   .row::after {
     content: "";
     display: table;
@@ -39,6 +37,9 @@ a {
 
 html {
   font-size: 10px; }
+
+.box:not(:last-child) {
+  margin-bottom: 5rem; }
 
 .header {
   position: relative;
