@@ -186,6 +186,10 @@ html {
     position: absolute;
     bottom: 0;
     padding: 1rem; }
+    .collection-box__text p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
 
 @media only screen and (max-width: 760px) {
   .content {
