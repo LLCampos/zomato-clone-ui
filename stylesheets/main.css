@@ -162,6 +162,31 @@ html {
     bottom: 50%;
     transform: translateY(50%); }
 
+.collections__boxes {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.collection-box {
+  height: 28rem;
+  background-size: cover;
+  border-radius: 1rem;
+  position: relative; }
+  .collection-box-1 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/alaska.avif"); }
+  .collection-box-2 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/pretty-restaurant.jpeg"); }
+  .collection-box-3 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/vegan.avif"); }
+  .collection-box-4 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/eco.avif"); }
+  .collection-box__text {
+    color: #fff;
+    font-size: 1.7rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem; }
+
 @media only screen and (max-width: 760px) {
   .content {
     margin: 0 1.8rem; }
