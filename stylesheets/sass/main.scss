@@ -6,6 +6,8 @@
 
 @import "layout/grid";
 
+@import "components/category-box";
+
 .box {
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
@@ -101,43 +103,6 @@
   
   &__bottom-text {
     font-size: 2rem;
-  }
-}
-
-.categories {
-  &__box {
-    height: 23rem;
-    border-radius: 1rem;
-    position: relative;
-    transition: all 0.2s;
-
-    &--text-box {
-      background-color: $color-white;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      border: 1px solid $color-light-grey;
-      border-radius: inherit;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-      padding: 1.5em 0;
-
-      p {
-        font-size: 2rem;
-        text-align: center;
-      }
-    }
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: inherit;
-    }
-
-    &:hover {
-      transform: scale(1.05);
-    }
   }
 }
 
