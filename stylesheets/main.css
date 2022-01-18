@@ -14,7 +14,7 @@ html {
 
 .row {
   max-width: 114rem;
-  margin: 0 auto; }
+  margin: 3rem auto; }
   .row::after {
     content: "";
     display: table;
@@ -63,6 +63,31 @@ html {
     border-radius: inherit; }
   .category-box:hover {
     transform: scale(1.05); }
+
+.collection-box {
+  height: 28rem;
+  background-size: cover;
+  border-radius: 1rem;
+  position: relative; }
+  .collection-box-1 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/alaska.avif"); }
+  .collection-box-2 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/pretty-restaurant.jpeg"); }
+  .collection-box-3 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/vegan.avif"); }
+  .collection-box-4 {
+    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/eco.avif"); }
+  .collection-box__text {
+    color: #fff;
+    font-size: 1.7rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem; }
+    .collection-box__text p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
 
 .box:not(:last-child) {
   margin-bottom: 5rem; }
@@ -119,7 +144,7 @@ html {
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
   height: 23rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   background-size: cover;
   border-radius: 1rem;
   background-position: center;
@@ -161,35 +186,6 @@ html {
     position: absolute;
     bottom: 50%;
     transform: translateY(50%); }
-
-.collections__boxes {
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
-
-.collection-box {
-  height: 28rem;
-  background-size: cover;
-  border-radius: 1rem;
-  position: relative; }
-  .collection-box-1 {
-    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/alaska.avif"); }
-  .collection-box-2 {
-    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/pretty-restaurant.jpeg"); }
-  .collection-box-3 {
-    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/vegan.avif"); }
-  .collection-box-4 {
-    background-image: linear-gradient(to bottom, rgba(232, 232, 232, 0.1) 50%, rgba(0, 0, 0, 0.8) 100%), url("../static/imgs/eco.avif"); }
-  .collection-box__text {
-    color: #fff;
-    font-size: 1.7rem;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 1rem; }
-    .collection-box__text p {
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis; }
 
 @media only screen and (max-width: 760px) {
   .content {

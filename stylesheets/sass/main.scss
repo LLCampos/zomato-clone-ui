@@ -7,6 +7,7 @@
 @import "layout/grid";
 
 @import "components/category-box";
+@import "components/collection-box";
 
 .box {
   &:not(:last-child) {
@@ -82,7 +83,7 @@
 .takeaway-ad {
   background-image: url(../static/imgs/delivery.png);
   height: 23rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   background-size: cover;
   border-radius: 1rem;
   background-position: center;
@@ -142,49 +143,6 @@
       position: absolute;
       bottom: 50%;
       transform: translateY(50%);
-    }
-  }
-
-  &__boxes {
-    margin-top: 3rem;
-    margin-bottom: 3rem; // TODO: Temporary
-  }
-}
-
-.collection-box {
-  height: 28rem;
-  background-size: cover;
-  border-radius: 1rem;
-  position: relative;
-
-  &-1 {
-    background-image: linear-gradient(to bottom, rgba($color-light-grey, 0.1) 50%, rgba(0,0,0,.8) 100%), url("../static/imgs/alaska.avif");
-  }
-
-  &-2 {
-    background-image: linear-gradient(to bottom, rgba($color-light-grey, 0.1) 50%, rgba(0,0,0,.8) 100%), url("../static/imgs/pretty-restaurant.jpeg");
-  }
-
-  &-3 {
-    background-image: linear-gradient(to bottom, rgba($color-light-grey, 0.1) 50%, rgba(0,0,0,.8) 100%), url("../static/imgs/vegan.avif");
-  }
-
-  &-4 {
-    background-image: linear-gradient(to bottom, rgba($color-light-grey, 0.1) 50%, rgba(0,0,0,.8) 100%), url("../static/imgs/eco.avif");
-  }
-
-  &__text {
-    color: $color-white;
-    font-size: 1.7rem;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 1rem;
-
-    p {
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
     }
   }
 }
