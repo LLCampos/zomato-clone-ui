@@ -12,6 +12,21 @@ a {
 html {
   font-size: 10px; }
 
+.u-margin-top-small {
+  margin-top: 1.5rem; }
+
+.u-margin-top-medium {
+  margin-top: 3rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 3rem; }
+
+.bold {
+  font-weight: 900; }
+
 .row {
   max-width: 114rem;
   margin: 3rem auto; }
@@ -88,6 +103,27 @@ html {
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis; }
+
+.locality-btn {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #e8e8e8;
+  padding: 2rem;
+  box-shadow: 1px 2px 1rem 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  color: #000;
+  font-size: 1.8rem; }
+  .locality-btn::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .locality-btn:hover {
+    box-shadow: 1px 5px 1rem 0px rgba(0, 0, 0, 0.1); }
+  .locality-btn__text {
+    float: left; }
+  .locality-btn__arrow {
+    float: right; }
 
 .box:not(:last-child) {
   margin-bottom: 5rem; }
@@ -186,6 +222,11 @@ html {
     position: absolute;
     bottom: 50%;
     transform: translateY(50%); }
+
+.localities-section__title {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 100; }
 
 @media only screen and (max-width: 760px) {
   .content {

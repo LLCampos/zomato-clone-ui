@@ -1,5 +1,6 @@
 @import "base/typography";
 @import "base/base";
+@import "base/utilities";
 
 @import "abstracts/variables";
 @import "abstracts/mixins";
@@ -8,6 +9,7 @@
 
 @import "components/category-box";
 @import "components/collection-box";
+@import "components/locality-btn";
 
 .box {
   &:not(:last-child) {
@@ -147,6 +149,13 @@
   }
 }
 
+.localities-section {
+  &__title {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+  }
+}
 
 @media only screen and (max-width: 760px) {
   .content {
@@ -167,4 +176,3 @@
     }
   }
 }
-
