@@ -264,4 +264,42 @@ html {
       font-weight: 100; }
     .cta-content__installation--text {
       font-size: 1.5rem;
-      font-weight: 100; }
+      font-weight: 100;
+      padding-bottom: 3rem; }
+  .cta-content__form--radio-group {
+    padding-bottom: 2rem; }
+  .cta-content__form--radio:not(:last-child) {
+    padding-right: 4rem; }
+  .cta-content__form--radio {
+    display: inline;
+    font-size: 1.5rem; }
+  .cta-content__form--radio-button {
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #ff7e8b;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -0.1rem; }
+    .cta-content__form--radio-button::after {
+      height: 1.3rem;
+      width: 1.3rem;
+      content: "";
+      display: block;
+      border-radius: 50%;
+      background-color: #ff7e8b;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: opacity .2s; }
+  .cta-content__form--radio-label {
+    cursor: pointer;
+    position: relative;
+    padding-left: 2.7rem; }
+  .cta-content__form--radio-input:checked ~ .cta-content__form--radio-label .cta-content__form--radio-button::after {
+    opacity: 1; }
+  .cta-content__form--radio-input {
+    display: none; }

@@ -210,6 +210,62 @@
     &--text {
       font-size: 1.5rem;
       font-weight: 100;
+      padding-bottom: 3rem;
+    }
+  }
+
+  &__form {
+    &--radio-group {
+      padding-bottom: 2rem;
+    }
+
+    &--radio:not(:last-child) {
+      padding-right: 4rem;
+    }
+
+    &--radio {
+      display: inline;
+      font-size: 1.5rem;
+    }
+
+    &--radio-button {
+      height: 2rem;
+      width: 2rem;
+      border: 1px solid $color-red;
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: -0.1rem;
+
+      &::after {
+        height: 1.3rem; 
+        width: 1.3rem;
+        content: "";
+        display: block;
+        border-radius: 50%;
+        background-color: $color-red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity .2s;
+      }
+    }
+
+    &--radio-label {
+      cursor: pointer;
+      position: relative;
+      padding-left: 2.7rem;
+    }
+
+    &--radio-input:checked ~ &--radio-label &--radio-button::after {
+      opacity: 1;
+    }
+
+    &--radio-input {
+      display: none;
     }
   }
 }
