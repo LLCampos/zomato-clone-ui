@@ -252,27 +252,28 @@ html {
     clear: both; }
   .cta-content__img {
     float: left;
-    width: 24rem;
+    width: 26rem;
     padding-right: 2rem; }
   .cta-content__installation {
     float: left;
-    max-width: 40rem;
+    max-width: 50rem;
     padding-left: 2rem; }
     .cta-content__installation--header {
       font-size: 4.4rem;
       padding-bottom: 3rem;
       font-weight: 100; }
     .cta-content__installation--text {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: 100;
-      padding-bottom: 3rem; }
+      padding-bottom: 3rem;
+      line-height: 3rem; }
   .cta-content__form--radio-group {
     padding-bottom: 2rem; }
   .cta-content__form--radio:not(:last-child) {
     padding-right: 4rem; }
   .cta-content__form--radio {
     display: inline;
-    font-size: 1.5rem; }
+    font-size: 1.7rem; }
   .cta-content__form--radio-button {
     height: 2rem;
     width: 2rem;
@@ -303,3 +304,31 @@ html {
     opacity: 1; }
   .cta-content__form--radio-input {
     display: none; }
+  .cta-content__form--radio-input-email:checked .cta-content__form--input-email {
+    display: inline-block; }
+  .cta-content__form--input {
+    width: 28rem;
+    padding: 1.3rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 3rem;
+    margin-right: 1rem; }
+    .cta-content__form--input:focus {
+      outline: none;
+      border: 1px solid #1191ad; }
+    .cta-content__form--input:focus:invalid {
+      border: 1px solid #ff7e8b; }
+  .cta-content__form--btn {
+    padding: 1.6rem 2.4rem;
+    background-color: #ef4f5f;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.6rem;
+    transition: box-shadow .2s; }
+    .cta-content__form--btn:hover {
+      cursor: pointer;
+      background-color: #e03546; }
+    .cta-content__form--btn:active {
+      box-shadow: 1px 5px 1rem 0px rgba(0, 0, 0, 0.1); }
